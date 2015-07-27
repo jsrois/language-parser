@@ -3,3 +3,6 @@
 *Makefile*
 *~
 LanguageParser
+.DS_Store
+.qmake.stash
+build

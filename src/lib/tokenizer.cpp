@@ -1,5 +1,6 @@
 #include "tokenizer.h"
 
+namespace lparser {
 
 string Token::text() const
 {
@@ -35,3 +36,4 @@ std::string serialize(TokenList tokenList)
                 (tokenList.front().text() + serialize(TokenList(tokenList.begin()+1,tokenList.end())));
 }
 
+}
